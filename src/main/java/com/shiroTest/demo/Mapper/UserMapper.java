@@ -1,8 +1,8 @@
-package com.shiroTest.demo.Mapper;
+package com.shiroTest.demo.mapper;
 
 import com.shiroTest.demo.model.User;
 import org.springframework.web.bind.annotation.RequestParam;
 
 public interface UserMapper {
-    User findUserByNamer(@RequestParam("username") String username);
+    User findUserByName(@RequestParam("username") String username);
 }
