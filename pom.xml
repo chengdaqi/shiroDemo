@@ -6,7 +6,10 @@
 	<groupId>com.shiroTest</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+    <modules>
+        <module>shiroLeanrning</module>
+    </modules>
+    <packaging>pom</packaging>
 
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
