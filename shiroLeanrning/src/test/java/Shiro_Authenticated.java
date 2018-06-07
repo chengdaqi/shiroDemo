@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 //认证
-public class shiro_Authenticated {
+public class Shiro_Authenticated {
 
     SimpleAccountRealm simpleAccountRealm = new SimpleAccountRealm();
 

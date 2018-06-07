@@ -8,7 +8,7 @@ import org.junit.Test;
 
 
 //授权
-public class shiro_Authorizer {
+public class Shiro_Authorizer {
     SimpleAccountRealm simpleAccountRealm = new SimpleAccountRealm();
 
     @Before
